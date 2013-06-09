@@ -4242,6 +4242,11 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 </instances>
 <busses>
+<bus name="CAPSENSE">
+<segment>
+<wire x1="167.64" y1="93.98" x2="167.64" y2="68.58" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="N$6" class="0">

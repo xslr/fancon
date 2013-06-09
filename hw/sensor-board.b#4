@@ -1824,21 +1824,33 @@ design rules under a new name.</description>
 </signal>
 <signal name="CAPSENSE2">
 <contactref element="U5" pad="28"/>
+<contactref element="X1" pad="6"/>
+<wire x1="5.775" y1="7" x2="30.65" y2="37.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAPSENSE1">
 <contactref element="U5" pad="29"/>
+<contactref element="X1" pad="5"/>
+<wire x1="5.775" y1="8" x2="29.85" y2="37.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAPSENSE3">
 <contactref element="U5" pad="15"/>
+<contactref element="X1" pad="7"/>
+<wire x1="5.775" y1="6" x2="32.25" y2="29.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAPSENSE4">
 <contactref element="U5" pad="16"/>
+<contactref element="X1" pad="8"/>
+<wire x1="5.775" y1="5" x2="33.05" y2="29.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAPSENSE5">
 <contactref element="U5" pad="17"/>
+<contactref element="X1" pad="9"/>
+<wire x1="5.775" y1="4" x2="34.55" y2="30.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAPSENSE6">
 <contactref element="U5" pad="14"/>
+<contactref element="X1" pad="10"/>
+<wire x1="5.775" y1="3" x2="31.45" y2="29.2" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

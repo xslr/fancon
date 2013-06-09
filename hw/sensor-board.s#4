@@ -4245,6 +4245,9 @@ Source: AVX .. aphvc.pdf</description>
 <bus name="CAPSENSE[1..6]">
 <segment>
 <wire x1="167.64" y1="93.98" x2="167.64" y2="68.58" width="0.762" layer="92"/>
+<wire x1="167.64" y1="68.58" x2="22.86" y2="68.58" width="0.762" layer="92"/>
+<wire x1="22.86" y1="68.58" x2="22.86" y2="81.28" width="0.762" layer="92"/>
+<wire x1="22.86" y1="68.58" x2="22.86" y2="60.96" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -4348,12 +4351,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="208.28" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="91.44" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="A" pin="6"/>
+<wire x1="7.62" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAPSENSE1" class="0">
 <segment>
 <pinref part="U5" gate="&gt;NAME" pin="!RESET!"/>
 <wire x1="208.28" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="93.98" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="A" pin="5"/>
+<wire x1="7.62" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="81.28" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAPSENSE3" class="0">
@@ -4362,12 +4375,21 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="208.28" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="86.36" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="A" pin="7"/>
+<wire x1="7.62" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="71.12" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAPSENSE4" class="0">
 <segment>
 <pinref part="U5" gate="&gt;NAME" pin="MISO"/>
 <wire x1="208.28" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="83.82" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="A" pin="8"/>
+<wire x1="7.62" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAPSENSE5" class="0">
@@ -4376,12 +4398,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="208.28" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="A" pin="9"/>
+<wire x1="7.62" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="66.04" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAPSENSE6" class="0">
 <segment>
 <pinref part="U5" gate="&gt;NAME" pin="!SS!"/>
 <wire x1="208.28" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="78.74" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="A" pin="10"/>
+<wire x1="7.62" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="60.96" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

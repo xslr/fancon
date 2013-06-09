@@ -1688,6 +1688,10 @@ design rules under a new name.</description>
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876" x="-6.75" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_PART" value="06031C103JAT2A" x="-6.75" y="-19" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C4" library="rcl" package="C0603K" value="0.01uF 100V" x="-6.75" y="-23.25">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876" x="-6.75" y="-23.25" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_PART" value="06031C103JAT2A" x="-6.75" y="-23.25" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1777,11 +1781,13 @@ design rules under a new name.</description>
 <contactref element="U5" pad="4"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="1"/>
+<contactref element="C4" pad="1"/>
 <wire x1="25.95" y1="33.9" x2="34.55" y2="31.5" width="0" layer="19" extent="1-1"/>
 <wire x1="16.3" y1="33.825" x2="25.95" y2="33.9" width="0" layer="19" extent="1-1"/>
 <wire x1="16.3" y1="34.475" x2="16.3" y2="33.825" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.625" y1="-10.5" x2="16.3" y2="33.825" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.625" y1="-14.75" x2="-7.625" y2="-10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.625" y1="-23.25" x2="-7.625" y2="-14.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="3"/>
@@ -1802,11 +1808,13 @@ design rules under a new name.</description>
 <contactref element="X1" pad="4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
 <wire x1="25.95" y1="33.1" x2="34.55" y2="33.9" width="0" layer="19" extent="1-1"/>
 <wire x1="16.3" y1="32.525" x2="25.95" y2="33.1" width="0" layer="19" extent="1-1"/>
 <wire x1="5.775" y1="9" x2="16.3" y2="32.525" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.875" y1="-14.75" x2="5.775" y2="9" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.875" y1="-19" x2="-5.875" y2="-14.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.875" y1="-23.25" x2="-5.875" y2="-19" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

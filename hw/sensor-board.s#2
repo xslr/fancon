@@ -4205,9 +4205,9 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="9.398" y="104.648" size="1.27" layer="97">VDD</text>
+<text x="9.398" y="104.648" size="1.27" layer="97">VDD_5</text>
 <text x="9.398" y="99.568" size="1.27" layer="97">GND</text>
-<text x="9.398" y="94.488" size="1.27" layer="97">VDD</text>
+<text x="9.398" y="94.488" size="1.27" layer="97">VDD_5</text>
 <text x="9.398" y="89.408" size="1.27" layer="97">GND</text>
 </plain>
 <instances>
@@ -4291,7 +4291,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="99.06" y1="106.68" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDD" class="0">
+<net name="VDD_5" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="!SHDN!"/>
 <wire x1="7.62" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
