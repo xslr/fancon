@@ -1,5 +1,5 @@
 fancon
-------
+======
 A hardware and software implementation of a fan controller. This includes a few items:
 
 - hardware (schematic and board layout)
