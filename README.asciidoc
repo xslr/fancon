@@ -1,6 +1,6 @@
 fancon
 ------
-A hardware and software implementation of a fan controller. This includes a few items:
+A hardware and software implementation of a PC fan controller. This project includes a few items:
 
 - hardware (schematic and board layout)
 - firmware
@@ -13,11 +13,11 @@ Status
 ------
 - [gray]#HW component sourcing#
 - [gray]#HW component design#
-- HW schematic _[red]#(in progress)#_
+- HW schematic - _(in progress)_
 - board layout
 - board manufacture
+- host interface protocol definition
 - controller firmware
-- host interface protocol
 - host driver
   * Linux
   * Windows
