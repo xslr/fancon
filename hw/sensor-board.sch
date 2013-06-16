@@ -4786,25 +4786,25 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U4" library="led_driver" deviceset="PCA9685" device="PW"/>
 <part name="X2" library="connector" deviceset="MOLEX-501953-0407" device=""/>
 <part name="U1" library="vreg" deviceset="LT1762EMS8-3.3PBF" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 100V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876"/>
-<attribute name="MFR_PART" value="06031C103JAT2A"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="10uF 10V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876"/>
-<attribute name="MFR_PART" value="06031C103JAT2A"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805K" value="10uF 10V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833812"/>
+<attribute name="MFR_PART" value="0805ZD106KAT2A"/>
 </part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0402K" value="1uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876"/>
-<attribute name="MFR_PART" value="06031C103JAT2A"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 16V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
+<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
 </part>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 100V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833876"/>
-<attribute name="MFR_PART" value="06031C103JAT2A"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402K" value="0.1uF 100V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833861"/>
+<attribute name="MFR_PART" value="0402YC104KAT2A"/>
 </part>
 <part name="R1" library="myrcl" deviceset="R-EU_NK" device="R0402" value="4.7k">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1768801"/>
-<attribute name="MFR_PART" value="PCF0402PR-4K7BT1 "/>
+<attribute name="MFR_PART" value="PCF0402PR-4K7BT1"/>
 </part>
 <part name="R2" library="myrcl" deviceset="R-EU_NK" device="R0402" value="4.7k">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1768801"/>
@@ -4819,100 +4819,100 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR_PART" value="PCF0402PR-4K7BT1 "/>
 </part>
 <part name="R9" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="R10" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R11" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R12" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R13" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R14" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R15" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R16" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R17" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R18" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R19" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="R20" library="myrcl" deviceset="R-EU_NK" device="R0603" value="60R 145mW">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1738889"/>
-<attribute name="MFR_PART" value="CRCW060368R0FKEAHP"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1894102"/>
+<attribute name="MFR_PART" value="ERJP03F62R0V"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 16V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
 <part name="X1" library="connector" deviceset="MOLEX-501953-0407" device=""/>
 <part name="TP1" library="testpad" deviceset="TP" device="B1,27"/>
@@ -5419,24 +5419,28 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="332.74" y1="218.44" x2="353.06" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<label x="342.9" y="219.202" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEY3" class="0">
 <segment>
 <wire x1="332.74" y1="226.06" x2="353.06" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<label x="342.9" y="226.822" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEY2" class="0">
 <segment>
 <wire x1="332.74" y1="233.68" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<label x="342.9" y="234.442" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEY1" class="0">
 <segment>
 <wire x1="332.74" y1="241.3" x2="353.06" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<label x="343.154" y="242.062" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEDOUT_A1" class="0">

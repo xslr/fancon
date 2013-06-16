@@ -14,7 +14,9 @@ Status
 - [gray]#HW component sourcing#
 - [gray]#HW component design#
 - HW schematic - _(in progress)_
-- board layout
+- board layout - _(in progress)_
+- schematic check - _(in progress)_
+- layout check - _(in progress)_
 - board manufacture
 - host interface protocol definition
 - controller firmware
