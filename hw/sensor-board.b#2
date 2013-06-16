@@ -1856,7 +1856,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.825" y="14.25" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="X3" library="connector" package="MOLEX-501953-0407" value="MOLEX-501953-0407" x="1.5" y="36" rot="R270"/>
+<element name="X1" library="connector" package="MOLEX-501953-0407" value="MOLEX-501953-0407" x="1.5" y="36" rot="R270"/>
 <element name="TP1" library="testpad" package="B1,27" value="TPB1,27" x="3.5" y="9.25" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="" x="5.405" y="8.615" size="1" layer="37" rot="R90"/>
 <attribute name="VALUE" x="4.262" y="8.615" size="0.0254" layer="27" rot="R90"/>
@@ -1986,7 +1986,7 @@ design rules under a new name.</description>
 <wire x1="12.9" y1="32.975" x2="12.9" y2="33.4" width="0.3" layer="1"/>
 <wire x1="14.65" y1="34.25" x2="13.75" y2="34.25" width="0.3" layer="1"/>
 <wire x1="13.75" y1="34.25" x2="12.9" y2="33.4" width="0.3" layer="1"/>
-<contactref element="X3" pad="1"/>
+<contactref element="X1" pad="1"/>
 <contactref element="TP1" pad="TP"/>
 <contactref element="VDD" pad="TP"/>
 <wire x1="47.75" y1="22.75" x2="47.75" y2="13.5" width="0.5" layer="1"/>
@@ -2080,7 +2080,7 @@ design rules under a new name.</description>
 <contactref element="C22" pad="1"/>
 <contactref element="C23" pad="1"/>
 <contactref element="C24" pad="1"/>
-<polygon width="0.1" layer="1" spacing="0.8128" pour="hatch" isolate="0.3048">
+<polygon width="0.17" layer="1" spacing="0.8128" pour="hatch" isolate="0.3048">
 <vertex x="0.5" y="39.5"/>
 <vertex x="0.5" y="0.5"/>
 <vertex x="49.5" y="0.5"/>
@@ -2096,7 +2096,7 @@ design rules under a new name.</description>
 <wire x1="17.6" y1="34.225" x2="17.625" y2="34.25" width="0.3" layer="1"/>
 <wire x1="17.6" y1="34.225" x2="15.875" y2="34.225" width="0.3" layer="1"/>
 <wire x1="15.875" y1="34.225" x2="15.85" y2="34.25" width="0.3" layer="1"/>
-<contactref element="X3" pad="2"/>
+<contactref element="X1" pad="2"/>
 <contactref element="TP3" pad="TP"/>
 <contactref element="GND" pad="TP"/>
 <contactref element="U4" pad="23"/>
@@ -2590,7 +2590,7 @@ design rules under a new name.</description>
 <wire x1="29.35" y1="27.6" x2="30.5" y2="27.6" width="0.17" layer="1"/>
 </signal>
 <signal name="!CAPSENSE_RST!">
-<contactref element="X3" pad="3"/>
+<contactref element="X1" pad="3"/>
 <contactref element="U5" pad="4"/>
 <wire x1="31.75" y1="36.8234" x2="31.75" y2="38.5" width="0.17" layer="1"/>
 <via x="31.75" y="38.5" extent="1-16" drill="0.3"/>
@@ -2600,7 +2600,7 @@ design rules under a new name.</description>
 <wire x1="9" y1="35.5" x2="7.15" y2="35.5" width="0.17" layer="1"/>
 </signal>
 <signal name="!CAPSENSE_CHG!">
-<contactref element="X3" pad="4"/>
+<contactref element="X1" pad="4"/>
 <contactref element="U5" pad="5"/>
 <wire x1="30.48" y1="36.8234" x2="30.5" y2="36.8434" width="0.17" layer="1"/>
 <wire x1="30.5" y1="36.8434" x2="30.5" y2="38.5" width="0.17" layer="1"/>
@@ -2634,9 +2634,9 @@ design rules under a new name.</description>
 <via x="30" y="9" extent="1-16" drill="0.3"/>
 <wire x1="30" y1="9" x2="30" y2="8" width="0.17" layer="16"/>
 <wire x1="30" y1="8" x2="29.5" y2="7.5" width="0.17" layer="16"/>
-<wire x1="29.5" y1="7.5" x2="11" y2="7.5" width="0.17" layer="16"/>
-<via x="11" y="7.5" extent="1-16" drill="0.3"/>
-<wire x1="11" y1="7.5" x2="8.5" y2="7.5" width="0.17" layer="1"/>
+<wire x1="29.5" y1="7.5" x2="12" y2="7.5" width="0.17" layer="16"/>
+<via x="12" y="7.5" extent="1-16" drill="0.3"/>
+<wire x1="12" y1="7.5" x2="8.5" y2="7.5" width="0.17" layer="1"/>
 </signal>
 </signals>
 </board>
