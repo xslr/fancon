@@ -13,10 +13,18 @@ Status
 ------
 - [gray]#HW component sourcing#
 - [gray]#HW component design#
-- HW schematic - _(in progress)_
-- board layout - _(in progress)_
-- schematic check - _(in progress)_
-- layout check - _(in progress)_
+- HW schematic - _in progress_
+  * Illum + sensor board - _in progress_
+  * Main board
+- Board layout - _in progress_
+  * Illum + sensor board - _in progress_
+  * Main board
+- Schematic check - _in progress_
+  * Capsense circuitry - _done_
+  * Led driver circuitry
+- layout check - _in progress_
+  * Capsense circuitry - _done_
+  * Led driver circuitry
 - board manufacture
 - host interface protocol definition
 - controller firmware
