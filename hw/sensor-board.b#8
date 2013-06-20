@@ -1983,6 +1983,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43" y="36.75" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="40.825" y="36.29" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="R5" library="myrcl" package="R0603" value="47k" x="-7.25" y="-2">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1768801" x="-7.25" y="-2" size="0.8128" layer="27" display="off"/>
+<attribute name="MFR_PART" value="PCF0402PR-4K7BT1" x="-7.25" y="-2" size="0.8128" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">
@@ -2262,6 +2266,8 @@ design rules under a new name.</description>
 <contactref element="PWR" pad="1"/>
 <wire x1="44" y1="35.02" x2="37.5" y2="35.02" width="0.5" layer="1"/>
 <wire x1="37.5" y1="35.02" x2="37.5" y2="35" width="0.5" layer="1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-6.4" y1="-2" x2="17.6" y2="31.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="3"/>
@@ -2717,6 +2723,8 @@ design rules under a new name.</description>
 <via x="5" y="35.5" extent="1-16" drill="0.3" diameter="0.8128"/>
 <wire x1="5" y1="35.5" x2="6" y2="34.5" width="0.17" layer="1"/>
 <wire x1="6" y1="34.5" x2="7.15" y2="34.5" width="0.17" layer="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-8.1" y1="-2" x2="6" y2="34.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U4" pad="1"/>
