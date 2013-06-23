@@ -1,1 +1,14 @@
 *.swp
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+sensor-board.TXT
+*.dri
+*.gpi
+*.zip

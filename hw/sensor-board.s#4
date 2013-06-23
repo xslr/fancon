@@ -464,10 +464,10 @@
 <wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1524" layer="51"/>
 <wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.1524" layer="51"/>
 <smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
 <text x="-1.905" y="2.34" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.875" layer="51"/>
@@ -480,6 +480,9 @@
 <wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-2.19" y1="-1.03" x2="-2.19" y2="-1.83" width="0.127" layer="21"/>
+<wire x1="-2.19" y1="-1.83" x2="-1.79" y2="-1.43" width="0.127" layer="21"/>
+<wire x1="-1.79" y1="-1.43" x2="-2.19" y2="-1.03" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4886,35 +4889,35 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="A0" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="A1" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="U5" library="touch_ctl" deviceset="AT42QT1070" device="-SSU"/>
-<part name="R5" library="myrcl" deviceset="R-EU_NK" device="R0603" value="47k">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799462"/>
-<attribute name="MFR_PART" value="RC0603JR-1047KL"/>
+<part name="R5" library="myrcl" deviceset="R-EU_NK" device="R0402" value="47k">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799288"/>
+<attribute name="MFR_PART" value="RC0402JR-0747KL"/>
 </part>
 <part name="U6" library="vreg" deviceset="TPS730XX" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="0.01uF 25V">
+<part name="C5" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402K" value="2.2uF 10V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2118127"/>
+<attribute name="MFR_PART" value="C0402C225M8PAC TU "/>
 </part>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402K" value="1uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB"/>
 </part>
 <part name="U7" library="vreg" deviceset="TPS730XX" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603K" value="0.01uF 25V">
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
+<part name="C9" library="rcl" deviceset="C-EU" device="C0402K" value="2.2uF 10V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
 <attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
 </part>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0402K" value="1uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB"/>
 </part>
 </parts>
 <sheets>
@@ -4937,10 +4940,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="170.18" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="43.18" x2="170.18" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="220.98" y1="208.28" x2="220.98" y2="281.94" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="220.98" y1="203.2" x2="220.98" y2="281.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="220.98" y1="281.94" x2="139.7" y2="281.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="139.7" y1="281.94" x2="139.7" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="139.7" y1="208.28" x2="220.98" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="139.7" y1="281.94" x2="139.7" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="139.7" y1="203.2" x2="220.98" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="335.28" y="53.34"/>

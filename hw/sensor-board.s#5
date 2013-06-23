@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -464,10 +464,10 @@
 <wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1524" layer="51"/>
 <wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.1524" layer="51"/>
 <smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
+<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="100"/>
 <text x="-1.905" y="2.34" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.875" layer="51"/>
@@ -480,6 +480,9 @@
 <wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-2.19" y1="-1.03" x2="-2.19" y2="-1.83" width="0.127" layer="21"/>
+<wire x1="-2.19" y1="-1.83" x2="-1.79" y2="-1.43" width="0.127" layer="21"/>
+<wire x1="-1.79" y1="-1.43" x2="-2.19" y2="-1.03" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4886,35 +4889,35 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="A0" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="A1" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="U5" library="touch_ctl" deviceset="AT42QT1070" device="-SSU"/>
-<part name="R5" library="myrcl" deviceset="R-EU_NK" device="R0603" value="47k">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799462"/>
-<attribute name="MFR_PART" value="RC0603JR-1047KL"/>
+<part name="R5" library="myrcl" deviceset="R-EU_NK" device="R0402" value="47k">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799288"/>
+<attribute name="MFR_PART" value="RC0402JR-0747KL"/>
 </part>
 <part name="U6" library="vreg" deviceset="TPS730XX" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="0.01uF 25V">
+<part name="C5" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402K" value="2.2uF 10V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2118127"/>
+<attribute name="MFR_PART" value="C0402C225M8PAC TU "/>
 </part>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402K" value="1uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB"/>
 </part>
 <part name="U7" library="vreg" deviceset="TPS730XX" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603K" value="0.01uF 25V">
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402K" value="0.01uF 25V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU"/>
 </part>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
+<part name="C9" library="rcl" deviceset="C-EU" device="C0402K" value="2.2uF 10V">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
 <attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
 </part>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="1uF 25V">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0402K" value="1uF 25V">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB"/>
 </part>
 </parts>
 <sheets>
@@ -5301,6 +5304,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="195.58" y1="218.44" x2="213.36" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="218.44" x2="213.36" y2="220.98" width="0.1524" layer="91"/>
 <junction x="195.58" y="218.44"/>
+<pinref part="U5" gate="G$1" pin="MODE"/>
+<wire x1="266.7" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="266.7" y1="236.22" x2="264.16" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="236.22" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
+<junction x="264.16" y="231.14"/>
+<wire x1="264.16" y1="231.14" x2="256.54" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="231.14" x2="218.44" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="231.14" x2="218.44" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="218.44" x2="213.36" y2="218.44" width="0.1524" layer="91"/>
+<junction x="213.36" y="218.44"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="GND"/>
@@ -5898,18 +5913,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U6" gate="G$1" pin="NR"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U5" gate="G$1" pin="MODE"/>
-<wire x1="266.7" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="GND"/>
-<wire x1="266.7" y1="236.22" x2="264.16" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="236.22" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
-<junction x="264.16" y="231.14"/>
-<wire x1="264.16" y1="231.14" x2="256.54" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">

@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -68,7 +68,7 @@
 <rectangle x1="17.25" y1="18.5" x2="20.25" y2="21.5" layer="41"/>
 <rectangle x1="29.75" y1="18.5" x2="32.75" y2="21.5" layer="41"/>
 <rectangle x1="42.25" y1="18.5" x2="45.25" y2="21.5" layer="41"/>
-<rectangle x1="5.75" y1="24.25" x2="44.25" y2="28.5" layer="41"/>
+<rectangle x1="5.75" y1="24.25" x2="44.25" y2="28.9" layer="41"/>
 <text x="5.5" y="31.25" size="0.8128" layer="21" font="vector">5V</text>
 <text x="4.75" y="30" size="0.8128" layer="21" font="vector">GND</text>
 <text x="1.75" y="28.75" size="0.8128" layer="21" font="vector">CAP_RST</text>
@@ -88,16 +88,14 @@
 <wire x1="47.5" y1="29.5" x2="47.5" y2="24" width="0.15" layer="21"/>
 <wire x1="47.5" y1="24" x2="42.75" y2="24" width="0.15" layer="21"/>
 <wire x1="42.75" y1="24" x2="42.75" y2="29.5" width="0.15" layer="21"/>
-<text x="45.25" y="38.6" size="0.8128" layer="21">SCL</text>
-<text x="42.4" y="37.85" size="0.8128" layer="21">SDA</text>
+<text x="45.25" y="38.85" size="0.8128" layer="21">SCL</text>
+<text x="45.15" y="37.6" size="0.8128" layer="21">SDA</text>
 </plain>
 <libraries>
 <library name="led">
 <packages>
 <package name="ASMT-YTC2-0AA02-REV">
-<wire x1="-1.5" y1="1.4" x2="-1.5" y2="-1.4" width="0.15" layer="21"/>
 <wire x1="-1.5" y1="-1.4" x2="1.5" y2="-1.4" width="0.15" layer="21"/>
-<wire x1="1.5" y1="-1.4" x2="1.5" y2="1.4" width="0.15" layer="21"/>
 <wire x1="1.5" y1="1.4" x2="-1.5" y2="1.4" width="0.15" layer="21"/>
 <smd name="3" x="-1.875" y="0.9" dx="1" dy="0.5" layer="1" roundness="50"/>
 <smd name="2" x="-1.875" y="0" dx="1" dy="0.5" layer="1" roundness="50"/>
@@ -258,22 +256,28 @@
 <wire x1="-2.9" y1="6.67" x2="-2.9" y2="5.87" width="0.127" layer="21"/>
 <wire x1="-2.9" y1="5.87" x2="-2.5" y2="6.27" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="6.27" x2="-2.9" y2="6.67" width="0.127" layer="21"/>
-<wire x1="-3" y1="5.35" x2="-3" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3" y1="5.35" x2="-2" y2="5.35" width="0.1524" layer="21"/>
 <wire x1="-3" y1="0" x2="3" y2="0" width="0.1524" layer="21"/>
-<wire x1="3" y1="0" x2="3" y2="5.35" width="0.1524" layer="21"/>
-<wire x1="-3" y1="5.35" x2="3" y2="5.35" width="0.1524" layer="21"/>
 <text x="-3" y="7" size="0.8128" layer="25">&gt;name</text>
 <text x="-2.5" y="3" size="0.3" layer="27">&gt;value</text>
 <rectangle x1="-1.625" y1="5.35" x2="-1.375" y2="5.9" layer="51"/>
 <rectangle x1="-0.625" y1="5.35" x2="-0.375" y2="5.9" layer="51"/>
 <rectangle x1="0.375" y1="5.35" x2="0.625" y2="5.9" layer="51"/>
 <rectangle x1="1.375" y1="5.35" x2="1.625" y2="5.9" layer="51"/>
+<wire x1="3" y1="5.35" x2="2" y2="5.35" width="0.1524" layer="21"/>
+<wire x1="-3" y1="5.35" x2="-3" y2="2.7" width="0.1524" layer="21"/>
+<wire x1="3" y1="5.35" x2="3" y2="2.7" width="0.1524" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="3" y1="0" x2="3" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="-1.05" y1="5.35" x2="-0.95" y2="5.35" width="0.127" layer="21"/>
+<wire x1="-0.05" y1="5.35" x2="0.05" y2="5.35" width="0.127" layer="21"/>
+<wire x1="0.95" y1="5.35" x2="1.05" y2="5.35" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
 <library name="vreg">
 <packages>
-<package name="SOT23-5@1">
+<package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="1.525" y1="0.875" x2="1.525" y2="-0.875" width="0.1524" layer="51"/>
 <wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1524" layer="51"/>
@@ -298,29 +302,6 @@
 <wire x1="-2.19" y1="-1.03" x2="-2.19" y2="-1.83" width="0.127" layer="21"/>
 <wire x1="-2.19" y1="-1.83" x2="-1.79" y2="-1.43" width="0.127" layer="21"/>
 <wire x1="-1.79" y1="-1.43" x2="-2.19" y2="-1.03" width="0.127" layer="21"/>
-</package>
-<package name="SOT23-5">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.525" y1="0.875" x2="1.525" y2="-0.875" width="0.1524" layer="51"/>
-<wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1524" layer="51"/>
-<wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
-<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
-<text x="-1.905" y="2.34" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.875" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.875" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.875" layer="51"/>
-<rectangle x1="0.7" y1="0.875" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.875" x2="-0.7" y2="1.5" layer="51"/>
-<wire x1="-1.525" y1="0.875" x2="-1.525" y2="-0.875" width="0.1524" layer="51"/>
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1385,18 +1366,6 @@ Metric Code Size 1005</description>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
 <rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
-<package name="C0603K">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 1608</description>
-<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
-<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
-<smd name="1" x="-0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
-<smd name="2" x="0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
-<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-</package>
 </packages>
 </library>
 <library name="myrcl">
@@ -1486,13 +1455,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-4.37388125" y1="1.99898125" x2="-4.37388125" y2="-1.99898125" width="0.127" layer="51"/>
 <wire x1="-4.37388125" y1="-1.99898125" x2="4.37388125" y2="-1.99898125" width="0.127" layer="51"/>
 <wire x1="-4.37388125" y1="1.99898125" x2="4.37388125" y2="1.99898125" width="0.127" layer="51"/>
-<wire x1="-4.318" y1="1.778" x2="-4.318" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-4.318" y1="-1.778" x2="4.318" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-1.778" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="4.318" y1="-1.27" x2="4.318" y2="1.778" width="0.127" layer="21"/>
-<wire x1="4.318" y1="1.778" x2="-4.318" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-4.318" y1="-1.27" x2="4.318" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="1.578" x2="-4.318" y2="-1.17" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-1.17" x2="-4.318" y2="-1.578" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-1.578" x2="4.318" y2="-1.578" width="0.127" layer="21"/>
+<wire x1="4.318" y1="-1.578" x2="4.318" y2="-1.17" width="0.127" layer="21"/>
+<wire x1="4.318" y1="-1.17" x2="4.318" y2="1.578" width="0.127" layer="21"/>
+<wire x1="4.318" y1="1.578" x2="-4.318" y2="1.578" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-1.17" x2="4.318" y2="-1.17" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1701,26 +1670,26 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="46.25" y="18.5" size="0.5" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="led_driver" package="TSSOP-PW-R-PDSO-G16" value="ULN2003LVPWR" x="21.9" y="5.05" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.95" y="10.15" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="17.8" y="2.35" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.554" y="5.05" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="U3" library="led_driver" package="TSSOP-PW-R-PDSO-G16" value="ULN2003LVPWR" x="39" y="5.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.05" y="10.5" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="36.5" y="0.35" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="40.654" y="5.35" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="U4" library="led_driver" package="SOT361-1" value="PCA9685PW" x="30.65" y="6.2" smashed="yes">
-<attribute name="NAME" x="28.5672" y="11.3706" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="27.0672" y="0.6706" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="31.0962" y="3.2122" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="X2" library="connector" package="MOLEX-501953-0407" value="MOLEX-501953-0407" x="45.85" y="0.95" smashed="yes">
 <attribute name="NAME" x="42.85" y="7.95" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.35" y="3.95" size="0.3" layer="27"/>
 </element>
-<element name="C4" library="rcl" package="C0402K" value="0.1uF 100V" x="37.45" y="36.85" smashed="yes">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833861" x="37.45" y="36.85" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_PART" value="0402YC104KAT2A" x="37.45" y="36.85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.95" y="36.525" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="36.95" y="35.4" size="1.016" layer="27"/>
+<element name="C4" library="rcl" package="C0402K" value="0.1uF 100V" x="37.45" y="36.35" smashed="yes">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1833861" x="37.45" y="36.35" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_PART" value="0402YC104KAT2A" x="37.45" y="36.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.95" y="36.025" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="36.95" y="34.9" size="1.016" layer="27"/>
 </element>
 <element name="R1" library="myrcl" package="R0402" value="4.7k" x="34.25" y="28.25" smashed="yes" rot="R270">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1768801" x="34.25" y="28.25" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1755,7 +1724,7 @@ design rules under a new name.</description>
 <element name="C13" library="rcl" package="C0402K" value="0.01uF 25V" x="5" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J4RACTU" x="5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.225" y="14.35" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="5.425" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="6.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="R10" library="myrcl" package="R0603" value="60R 145mW" x="19.5" y="13.25" smashed="yes" rot="R90">
@@ -1827,13 +1796,13 @@ design rules under a new name.</description>
 <element name="C14" library="rcl" package="C0402K" value="0.01uF 16V" x="6" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="6" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU" x="6" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.225" y="14.35" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="6.425" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="7.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" package="C0402K" value="0.01uF 16V" x="7" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="7" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU" x="7" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.225" y="14.35" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="7.425" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="8.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C16" library="rcl" package="C0402K" value="0.01uF 16V" x="28.2" y="13" smashed="yes" rot="R90">
@@ -1875,19 +1844,19 @@ design rules under a new name.</description>
 <element name="C22" library="rcl" package="C0402K" value="0.01uF 16V" x="44.5" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J4RACTU" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.825" y="14.25" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="44.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="45.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C23" library="rcl" package="C0402K" value="0.01uF 16V" x="45.5" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J4RACTU" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="45.825" y="14.25" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="45.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="46.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C24" library="rcl" package="C0402K" value="0.01uF 16V" x="46.5" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J4RACTU" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.825" y="14.25" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="46.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="47.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="X1" library="connector" package="MOLEX-501953-0407" value="MOLEX-501953-0407" x="1.5" y="36" smashed="yes" rot="R270">
@@ -1900,7 +1869,7 @@ design rules under a new name.</description>
 </element>
 <element name="3.3V" library="testpad" package="B1,27" value="TPB1,27" x="8.5" y="9.25" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="" x="10.405" y="8.615" size="1" layer="37" rot="R90"/>
-<attribute name="NAME" x="5" y="8.75" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="5" y="9" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="9.262" y="8.615" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="TP3" library="testpad" package="B1,27" value="TPB1,27" x="3.5" y="5.75" smashed="yes" rot="R90">
@@ -1926,55 +1895,55 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.925" y="34.0548" size="0.6096" layer="27" ratio="10" rot="R180"/>
 <attribute name="NAME" x="25.695" y="35.076" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="R5" library="myrcl" package="R0402" value="47k" x="22.25" y="36" smashed="yes" rot="R270">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799288" x="22.25" y="36" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MFR_PART" value="RC0402JR-0747KL" x="22.25" y="36" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.115" y="35.735" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="20.845" y="36.635" size="0.8128" layer="27" rot="R270"/>
+<element name="R5" library="myrcl" package="R0402" value="47k" x="22.25" y="37" smashed="yes" rot="R270">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1799288" x="22.25" y="37" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_PART" value="RC0402JR-0747KL" x="22.25" y="37" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="23.015" y="36.735" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="20.845" y="37.635" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="U6" library="vreg" package="SOT23-5@1" value="TPS730XX" x="13.25" y="7" smashed="yes" rot="R180">
+<element name="U6" library="vreg" package="SOT23-5" value="TPS730XX" x="13.25" y="7" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.655" y="7.91" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="15.155" y="10.175" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="rcl" package="C0402K" value="0.01uF 25V" x="11.25" y="4.25" smashed="yes" rot="R180">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="11.25" y="4.25" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J3RACTU" x="11.25" y="4.25" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.3" y="3.35" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="12.05" y="5.9" size="1.016" layer="27" rot="R180"/>
+<element name="C5" library="rcl" package="C0402K" value="0.01uF 25V" x="12.25" y="3.75" smashed="yes" rot="R270">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="12.25" y="3.75" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="12.25" y="3.75" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.4" y="3.45" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="10.6" y="4.55" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C6" library="rcl" package="C0402K" value="2.2uF 10V" x="14.25" y="3.25" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2118127" x="14.25" y="3.25" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C225M8PAC TU " x="14.25" y="3.25" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15.2" y="2.9" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="15.9" y="2.45" size="1.016" layer="27" rot="R90"/>
+<element name="C6" library="rcl" package="C0402K" value="2.2uF 10V" x="14.25" y="3.75" smashed="yes" rot="R90">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2118127" x="14.25" y="3.75" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C225M8PAC TU " x="14.25" y="3.75" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="14.95" y="3.45" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="15.9" y="2.95" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="C8" library="rcl" package="C0603K" value="1uF 25V" x="10.75" y="10.25" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156" x="10.75" y="10.25" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC" x="10.75" y="10.25" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.55" y="10.85" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="12.4" y="9.45" size="1.016" layer="27" rot="R90"/>
+<element name="C8" library="rcl" package="C0402K" value="1uF 25V" x="11.5" y="9.75" smashed="yes" rot="R180">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112" x="11.5" y="9.75" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB" x="11.5" y="9.75" size="0.8128" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="10.85" y="10.35" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="12.3" y="11.4" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="U7" library="vreg" package="SOT23-5" value="TPS730XX" x="16" y="35" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.845" y="35.09" size="0.8128" layer="25"/>
+<attribute name="NAME" x="17.895" y="35.09" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="17.905" y="38.175" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="C7" library="rcl" package="C0402K" value="0.01uF 25V" x="13.25" y="33" smashed="yes" rot="R180">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="18.75" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J3RACTU" x="18.75" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.1" y="32.25" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="14.05" y="34.65" size="1.016" layer="27" rot="R180"/>
+<element name="C7" library="rcl" package="C0402K" value="0.01uF 25V" x="15" y="31.75" smashed="yes" rot="R270">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="22.25" y="37.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="22.25" y="37.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.05" y="31.45" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="13.35" y="32.55" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C9" library="rcl" package="C0402K" value="2.2uF 10V" x="17" y="31.5" smashed="yes" rot="R270">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156" x="24.25" y="37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC" x="24.25" y="37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.85" y="31.75" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="15.35" y="32.3" size="1.016" layer="27" rot="R270"/>
+<element name="C9" library="rcl" package="C0402K" value="2.2uF 10V" x="17" y="31.75" smashed="yes" rot="R270">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156" x="24.25" y="37.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_PART" value="C1608X7R1C105K080AC" x="24.25" y="37.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="17.7" y="31.45" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="15.35" y="32.55" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C10" library="rcl" package="C0603K" value="1uF 25V" x="12.5" y="35.5" smashed="yes">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=2146156" x="7" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_PART" value="C1608X7R1C105K080AC" x="7" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.5" y="36.25" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="11.7" y="33.85" size="1.016" layer="27"/>
+<element name="C10" library="rcl" package="C0402K" value="1uF 25V" x="13" y="36.25" smashed="yes">
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1844112" x="7.5" y="43.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_PART" value="C1005X5R1A105K050BB" x="7.5" y="43.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12" y="36.85" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="12.2" y="34.6" size="1.016" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -2123,18 +2092,14 @@ design rules under a new name.</description>
 <contactref element="U6" pad="3"/>
 <wire x1="7" y1="13.6" x2="10.9" y2="13.6" width="0.5" layer="1"/>
 <wire x1="10.9" y1="13.6" x2="12.3" y2="12.2" width="0.5" layer="1"/>
-<wire x1="12.3" y1="12.2" x2="12.3" y2="9.5" width="0.5" layer="1"/>
+<wire x1="12.3" y1="12.2" x2="12.3" y2="9.55" width="0.5" layer="1"/>
 <wire x1="12.3" y1="9.5" x2="12.3" y2="8.35" width="0.5" layer="1"/>
 <wire x1="14.2" y1="8.35" x2="14.2" y2="9.5" width="0.3048" layer="1"/>
 <wire x1="14.2" y1="9.5" x2="12.3" y2="9.5" width="0.3048" layer="1"/>
 <contactref element="C8" pad="1"/>
-<wire x1="10.75" y1="9.375" x2="10.75" y2="9.5" width="0.5" layer="1"/>
-<wire x1="10.75" y1="9.5" x2="12.3" y2="9.5" width="0.5" layer="1"/>
 <contactref element="U7" pad="1"/>
 <contactref element="U7" pad="3"/>
 <contactref element="C10" pad="2"/>
-<wire x1="13.375" y1="35.5" x2="14.225" y2="36.35" width="0.5" layer="1"/>
-<wire x1="14.225" y1="36.35" x2="15.05" y2="36.35" width="0.5" layer="1"/>
 <wire x1="15.05" y1="36.35" x2="15.05" y2="37.2" width="0.5" layer="1"/>
 <wire x1="15.05" y1="37.2" x2="14.75" y2="37.5" width="0.5" layer="1"/>
 <wire x1="14.75" y1="37.5" x2="7.15" y2="37.5" width="0.5" layer="1"/>
@@ -2143,6 +2108,10 @@ design rules under a new name.</description>
 <wire x1="16.95" y1="36.35" x2="16.95" y2="35.2" width="0.25" layer="1"/>
 <wire x1="16.95" y1="35.2" x2="16.75" y2="35" width="0.25" layer="1"/>
 <wire x1="16.75" y1="35" x2="15.25" y2="35" width="0.25" layer="1"/>
+<wire x1="15.05" y1="36.35" x2="13.7" y2="36.35" width="0.5" layer="1"/>
+<wire x1="13.7" y1="36.35" x2="13.6" y2="36.25" width="0.5" layer="1"/>
+<wire x1="12.3" y1="9.5" x2="12.3" y2="9.55" width="0.5" layer="1"/>
+<wire x1="12.3" y1="9.55" x2="12.1" y2="9.75" width="0.5" layer="1"/>
 <wire x1="18" y1="22.75" x2="16.75" y2="35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
@@ -2227,25 +2196,25 @@ design rules under a new name.</description>
 <signal name="VDD_3_3">
 <contactref element="C4" pad="1"/>
 <contactref element="U5" pad="1"/>
-<wire x1="36.85" y1="36.85" x2="36.8234" y2="36.8234" width="0.3" layer="1"/>
+<wire x1="36.85" y1="36.35" x2="36.8234" y2="36.8234" width="0.3" layer="1"/>
 <wire x1="36.8234" y1="36.8234" x2="35.56" y2="36.8234" width="0.3" layer="1"/>
 <via x="22.25" y="32.25" extent="1-16" drill="0.4" diameter="0.8128"/>
-<via x="37.5" y="35" extent="1-16" drill="0.4" diameter="1.27"/>
+<via x="37.5" y="35" extent="1-16" drill="0.5" diameter="1.27"/>
 <wire x1="22.25" y1="32.25" x2="24.5" y2="32.25" width="0.4064" layer="16"/>
 <wire x1="24.5" y1="32.25" x2="26" y2="33.75" width="0.4064" layer="16"/>
 <wire x1="26" y1="33.75" x2="36.25" y2="33.75" width="0.4064" layer="16"/>
 <wire x1="36.25" y1="33.75" x2="37.5" y2="35" width="0.4064" layer="16"/>
 <wire x1="37.5" y1="35" x2="36.85" y2="35.65" width="0.4064" layer="1"/>
-<wire x1="36.85" y1="35.65" x2="36.85" y2="36.85" width="0.4064" layer="1"/>
+<wire x1="36.85" y1="35.65" x2="36.85" y2="36.35" width="0.4064" layer="1"/>
 <wire x1="37.5" y1="35.02" x2="37.5" y2="35" width="0.5" layer="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U7" pad="5"/>
 <contactref element="C9" pad="1"/>
-<wire x1="22.25" y1="35.35" x2="22.25" y2="32.25" width="0.25" layer="1"/>
+<wire x1="22.25" y1="36.35" x2="22.25" y2="32.25" width="0.25" layer="1"/>
 <wire x1="16.95" y1="33.65" x2="17" y2="33.65" width="0.5" layer="1"/>
-<wire x1="17" y1="33.65" x2="17" y2="32.1" width="0.5" layer="1"/>
+<wire x1="17" y1="33.65" x2="17" y2="32.35" width="0.5" layer="1"/>
 <wire x1="22.25" y1="32.25" x2="17" y2="32.25" width="0.5" layer="1"/>
-<wire x1="17" y1="32.25" x2="17" y2="32.1" width="0.5" layer="1"/>
+<wire x1="17" y1="32.25" x2="17" y2="32.35" width="0.5" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R1" pad="1"/>
@@ -2697,7 +2666,7 @@ design rules under a new name.</description>
 <wire x1="5" y1="35.5" x2="6" y2="34.5" width="0.25" layer="1"/>
 <wire x1="6" y1="34.5" x2="7.15" y2="34.5" width="0.25" layer="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="22.25" y1="36.65" x2="22.25" y2="39" width="0.25" layer="1"/>
+<wire x1="22.25" y1="37.65" x2="22.25" y2="39" width="0.25" layer="1"/>
 <via x="22.25" y="39" extent="1-16" drill="0.4" diameter="0.8128"/>
 </signal>
 <signal name="N$6">
@@ -2733,8 +2702,6 @@ design rules under a new name.</description>
 <contactref element="TP1" pad="TP"/>
 <contactref element="3.3V" pad="TP"/>
 <contactref element="C6" pad="2"/>
-<wire x1="14.2" y1="5.65" x2="14.2" y2="4.125" width="0.5" layer="1"/>
-<wire x1="14.2" y1="4.125" x2="14.25" y2="3.85" width="0.5" layer="1"/>
 <wire x1="14.2" y1="5.65" x2="14.2" y2="4.75" width="0.5" layer="1"/>
 <wire x1="14.2" y1="4.75" x2="17.25" y2="4.75" width="0.5" layer="1"/>
 <via x="17.25" y="4.75" extent="1-16" drill="0.4" diameter="1"/>
@@ -2758,18 +2725,20 @@ design rules under a new name.</description>
 <wire x1="28.775" y1="8.475" x2="31" y2="6.25" width="0.17" layer="1"/>
 <via x="31" y="6.25" extent="1-16" drill="0.4" diameter="0.8128"/>
 <wire x1="31" y1="6.25" x2="31" y2="4.75" width="0.17" layer="16"/>
+<wire x1="14.2" y1="4.75" x2="14.2" y2="4.4" width="0.5" layer="1"/>
+<wire x1="14.2" y1="4.4" x2="14.25" y2="4.35" width="0.5" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U6" pad="4"/>
 <contactref element="C5" pad="1"/>
-<wire x1="12.3" y1="5.65" x2="12.3" y2="4.25" width="0.5" layer="1"/>
-<wire x1="12.3" y1="4.25" x2="11.85" y2="4.25" width="0.5" layer="1"/>
+<wire x1="12.3" y1="5.65" x2="12.3" y2="4.4" width="0.5" layer="1"/>
+<wire x1="12.3" y1="4.4" x2="12.25" y2="4.35" width="0.5" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U7" pad="4"/>
 <contactref element="C7" pad="1"/>
-<wire x1="13.85" y1="33" x2="15.05" y2="33" width="0.5" layer="1"/>
-<wire x1="15.05" y1="33" x2="15.05" y2="33.65" width="0.5" layer="1"/>
+<wire x1="15.05" y1="33.65" x2="15.05" y2="32.4" width="0.5" layer="1"/>
+<wire x1="15.05" y1="32.4" x2="15" y2="32.35" width="0.5" layer="1"/>
 </signal>
 </signals>
 </board>

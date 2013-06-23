@@ -11,19 +11,19 @@ This project is in a very early design phase.
 
 Status
 ------
-- [gray]#HW component sourcing#
-- [gray]#HW component design#
+- [gray]#HW component sourcing - _done_#
+- [gray]#HW component design - _done_#
 - HW schematic - _in progress_
-  * Illum + sensor board - _in progress_
+  * [gray]#Illum + sensor board - _done_#
   * Main board
 - Board layout - _in progress_
-  * Illum + sensor board - _in progress_
+  * [gray]#Illum + sensor board - _done_#
   * Main board
 - Schematic check - _in progress_
-  * Capsense circuitry - _done_
+  * [gray]#Capsense circuitry - _done_#
   * Led driver circuitry
 - layout check - _in progress_
-  * Capsense circuitry - _done_
+  * [gray]#Capsense circuitry - _done_#
   * Led driver circuitry
 - board manufacture
 - host interface protocol definition
