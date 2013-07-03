@@ -73,16 +73,11 @@
 <text x="9.5" y="36.25" size="0.8128" layer="21" font="vector">GND</text>
 <text x="9.5" y="35.25" size="0.8128" layer="21" font="vector">RST</text>
 <text x="9.5" y="34.25" size="0.8128" layer="21" font="vector">CHG</text>
-<text x="43.25" y="28.25" size="0.8128" layer="21" font="vector">X2</text>
 <text x="1.75" y="31.25" size="0.8128" layer="21" font="vector">X1</text>
 <text x="45.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">GND</text>
 <text x="46.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">SDA</text>
 <text x="47.9" y="8" size="0.8128" layer="21" font="vector" rot="R90">SCL</text>
 <text x="44.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">5V</text>
-<wire x1="42.75" y1="29.5" x2="47.5" y2="29.5" width="0.15" layer="21"/>
-<wire x1="47.5" y1="29.5" x2="47.5" y2="24" width="0.15" layer="21"/>
-<wire x1="47.5" y1="24" x2="42.75" y2="24" width="0.15" layer="21"/>
-<wire x1="42.75" y1="24" x2="42.75" y2="29.5" width="0.15" layer="21"/>
 </plain>
 <libraries>
 <library name="led">
