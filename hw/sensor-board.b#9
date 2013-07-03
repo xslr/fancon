@@ -69,21 +69,16 @@
 <rectangle x1="29.75" y1="18.5" x2="32.75" y2="21.5" layer="41"/>
 <rectangle x1="42.25" y1="18.5" x2="45.25" y2="21.5" layer="41"/>
 <rectangle x1="5.75" y1="24.25" x2="44.25" y2="28.9" layer="41"/>
-<text x="5.5" y="31.25" size="0.8128" layer="21" font="vector">5V</text>
-<text x="4.75" y="30" size="0.8128" layer="21" font="vector">GND</text>
-<text x="1.75" y="28.75" size="0.8128" layer="21" font="vector">CAP_RST</text>
-<text x="1.75" y="27.5" size="0.8128" layer="21" font="vector">CAP_CHG</text>
-<wire x1="1.5" y1="33" x2="1.25" y2="33" width="0.15" layer="21"/>
-<wire x1="1.25" y1="33" x2="1.25" y2="27" width="0.15" layer="21"/>
-<wire x1="1.25" y1="27" x2="7.25" y2="27" width="0.15" layer="21"/>
-<wire x1="7.25" y1="27" x2="7.25" y2="33" width="0.15" layer="21"/>
-<wire x1="7.25" y1="33" x2="6.75" y2="33" width="0.15" layer="21"/>
+<text x="9.5" y="37.25" size="0.8128" layer="21" font="vector">5V</text>
+<text x="9.5" y="36.25" size="0.8128" layer="21" font="vector">GND</text>
+<text x="9.5" y="35.25" size="0.8128" layer="21" font="vector">RST</text>
+<text x="9.5" y="34.25" size="0.8128" layer="21" font="vector">CHG</text>
 <text x="43.25" y="28.25" size="0.8128" layer="21" font="vector">X2</text>
 <text x="1.75" y="31.25" size="0.8128" layer="21" font="vector">X1</text>
-<text x="45" y="27" size="0.8128" layer="21" font="vector">GND</text>
-<text x="45" y="25.75" size="0.8128" layer="21" font="vector">SDA</text>
-<text x="45" y="24.5" size="0.8128" layer="21" font="vector">SCL</text>
-<text x="45.75" y="28.25" size="0.8128" layer="21" font="vector">5V</text>
+<text x="45.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">GND</text>
+<text x="46.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">SDA</text>
+<text x="47.9" y="8" size="0.8128" layer="21" font="vector" rot="R90">SCL</text>
+<text x="44.75" y="8" size="0.8128" layer="21" font="vector" rot="R90">5V</text>
 <wire x1="42.75" y1="29.5" x2="47.5" y2="29.5" width="0.15" layer="21"/>
 <wire x1="47.5" y1="29.5" x2="47.5" y2="24" width="0.15" layer="21"/>
 <wire x1="47.5" y1="24" x2="42.75" y2="24" width="0.15" layer="21"/>
@@ -1687,7 +1682,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="31.0962" y="3.2122" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="X2" library="connector" package="MOLEX-501953-0407" value="MOLEX-501953-0407" x="45.85" y="0.95" smashed="yes">
-<attribute name="NAME" x="42.85" y="7.95" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="42.35" y="7.95" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.35" y="3.95" size="0.3" layer="27"/>
 </element>
 <element name="C4" library="rcl" package="C0402K" value="0.1uF 100V" x="37.45" y="36.35" smashed="yes">
@@ -1728,7 +1723,7 @@ design rules under a new name.</description>
 </element>
 <element name="C13" library="rcl" package="C0402K" value="0.01uF 25V" x="5" y="13" smashed="yes" rot="R90">
 <attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.425" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="6.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
@@ -1805,62 +1800,62 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="7.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" package="C0402K" value="0.01uF 16V" x="7" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="7" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="7" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU" x="7" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.425" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="8.45" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C16" library="rcl" package="C0402K" value="0.01uF 16V" x="28.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="28.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="28.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU" x="28.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.525" y="14.5" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C17" library="rcl" package="C0402K" value="0.01uF 16V" x="29.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="29.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="29.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_PART" value="C0402C103J3RACTU" x="29.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="29.525" y="14.5" size="0.8182" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="30.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C18" library="rcl" package="C0402K" value="0.01uF 16V" x="30.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="30.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="30.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="30.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="30.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.525" y="14.5" size="0.8182" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="31.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C19" library="rcl" package="C0402K" value="0.01uF 16V" x="31.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="31.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="31.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="31.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="31.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.525" y="14.5" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="32.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C20" library="rcl" package="C0402K" value="0.01uF 16V" x="32.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="32.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="32.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="32.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="32.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.525" y="14.5" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="33.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C21" library="rcl" package="C0402K" value="0.01uF 16V" x="33.2" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="33.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="33.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="33.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="33.2" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.525" y="14.5" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="34.65" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C22" library="rcl" package="C0402K" value="0.01uF 16V" x="44.5" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="44.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="45.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C23" library="rcl" package="C0402K" value="0.01uF 16V" x="45.5" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="45.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="45.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="46.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C24" library="rcl" package="C0402K" value="0.01uF 16V" x="46.5" y="13" smashed="yes" rot="R90">
-<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=8770344" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_PART" value="C0402C103J4RACTU" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ELEMENT14_URL" value="http://sg.element14.com/jsp/search/productdetail.jsp?sku=1692285" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_PART" value="C0402C103J3RACTU" x="46.5" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="46.925" y="14.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="47.95" y="12.5" size="1.016" layer="27" rot="R90"/>
 </element>
